@@ -10,7 +10,11 @@
     <style>
         * {
             font-family: Montserrat;
+            background-color: #e6e6e6;
+        }
 
+        a:link, a:visited{
+            color:blue /* MUAHAHHAHAHA COR SEM O CÓDIGO HEXADECIMAL */
         }
 
         img{
@@ -26,12 +30,12 @@
             display: table;
         }
 
-        .imagem{
+        #imagem{
             display: table-cell;
             float: left;
         }
 
-        .texto{
+        #texto{
             display: table-cell;
             float: left;
             width: 500px;
@@ -60,7 +64,7 @@
             width: 960px;
         }
 
-        .rodape{
+        #rodape{
             text-align: center;
             padding-top: 75px;
         }
@@ -71,6 +75,7 @@
 
         .emp_text{
             font-size: 25px;
+            padding-right: 960px;
         }
 
         .desc{
@@ -82,17 +87,16 @@
             margin-left: -1px;
         }
 
-
     </style>
 </head>
 <body>
     <section class="corpo">
         <div class="conteudo">
-            <div class="imagem">
+            <div id="imagem">
                 <img src="Sem título.jpg" alt="Foto">
             </div>
 
-            <div class="texto">
+            <div id="texto">
                 <h1><strong>Boris Philipp Weber Da Luz</strong></h1>
                 <p>Data de Nascimento: 03/07/2003</p>
                 <p>Endereço: Rua Tchurusbangos Tchurusbagos</p>
@@ -103,7 +107,7 @@
     </section>
   
     <section class="formacao">
-        <div class="pr_formacao">
+        <div id="pr_formacao">
             <h2><strong>FORMAÇÃO ACADÊMICA</strong></h2>
         </div>
         <hr>
@@ -137,7 +141,7 @@
         <hr id="barra_final">
 
         <div class="emp_text">
-            <h5><strong>Social Media</strong></h5>
+            <h5><strong>Mídia Social</strong></h5>
         </div>
 
         <div class="desc">
@@ -147,7 +151,7 @@
         </div>
     </section>
 
-    <article class = "rodape">
+    <article id = "rodape">
         <footer><strong>Todos os Direitos Reservados &copy; <br> <b><u>FEITO SEM GPT!!!!!!</u></b></strong></footer>
     </article>
 </body>
