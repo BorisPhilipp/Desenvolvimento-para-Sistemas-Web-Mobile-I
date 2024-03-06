@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    /* background-color: #262217; */
+    background-image: url(fundo.png);
+    position: absolute;
+    padding: 25px 292px 110px 90px;
+}
+
+#links img{
+    padding-left: 90px;
+}
+
+#links ul{
+    color: #b17611;
+    float: right;
+    font-size: 12px;
+    padding: 0 90px;
+}
+
+#links li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline;
+    padding: 25px 7px 25px 25px;
+}
+
+.area_anuncio{
+    padding: 85px 140px;
+    position: relative;
+}
+
+#imagens-museu{
+    display: inline;
+
+    word-spacing: 20px;
+}
