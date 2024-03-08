@@ -41,12 +41,12 @@ header{
 .geo-museu{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 450px 270px;
-    color: rgb(26, 107, 39);
 }
 
 #geo-video{
     float: left;
     padding-right: 50px;
+    color: rgb(26, 107, 39);
 }
 
 #geo-video p{
@@ -55,8 +55,43 @@ header{
 
 #geo-mapa{
     clear: right;
+    color: rgb(26, 107, 39);
 }
 
 #geo-mapa p{
     padding-bottom: 15px;
+}
+
+#expo p{
+    color: rgb(26, 107, 39);
+    padding: 30px 0 15px 0;
+}
+
+li::marker{
+    color: black;
+}
+
+#expo ul{
+    color: #b17611;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+#hist h2{
+    font-size: 17px;
+    color: rgb(26, 107, 39);
+    padding: 30px 0 15px 0;
+}
+
+#leia-mais{
+    color: #b17611;
+}
+
+#expo{
+    float: left;
+    padding-right: 175px;
+}
+
+#hist{
+
 }
