@@ -127,10 +127,13 @@ li::marker{
 .galeria-fotos{
     float: right;
     background-color: #f0e4dc;
-    margin: -486px 0;
+    margin: -486px -66px;
 }
 
 #fundo-fotos{
     position: relative;
 }
 
+#fotos{
+    position: absolute;
+}
