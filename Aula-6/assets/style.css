@@ -4,38 +4,44 @@
 }
 
 header{
-    background-color: #262217; 
-/*     background-image: url(fundo.png); */
-    position: absolute;
-    padding-bottom: 80px;
+    /* background-color: #262217; */
+    background-image: url(fundo.png);
+    /* position: absolute; */
+    padding: 45px 240px 110px 240px;
+
 }
 
-#links img{
-    padding: 25px 142px
-}
+/* #links img{
 
+}  */
 
 #links ul{
     color: #b17611;
     float: right;
-    font-size: 12px;
-    padding: 26px 184px;
-}
+    font-size: 17px;
+ /*    padding: 50px; */
+} 
 
 #links li{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: inline;
-    padding: 25px 7px 25px 7px;
-}
+    padding: 12px; 
+} 
+
 
 .area_anuncio{
-    padding: 75px 140px;
+    padding: 0 240px 0 240px;
     position: relative;
 }
 
+
 #imagens-museu{
+    top: -75px;
+    position: absolute;
     display: inline;
     word-spacing: 20px;
 }
-
-
+ 
+#imagens-museu img{
+    height: 500px;
+}
