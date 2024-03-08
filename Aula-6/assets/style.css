@@ -130,10 +130,13 @@ li::marker{
     margin: -486px -66px;
 }
 
-#fundo-fotos{
-    position: relative;
-}
-
 #fotos{
     position: absolute;
+    padding: 8px;
+}
+
+#fotos img{
+    padding: 10px;
+    padding-bottom: 30px;
+    padding-right: 20px;
 }
