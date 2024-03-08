@@ -41,6 +41,7 @@ header{
 .geo-museu{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 450px 270px;
+    color: rgb(26, 107, 39);
 }
 
 #geo-video{
@@ -49,7 +50,7 @@ header{
 }
 
 #geo-video p{
-    padding-bottom: 8px;
+    padding-bottom: 15px;
 }
 
 #geo-mapa{
@@ -57,5 +58,5 @@ header{
 }
 
 #geo-mapa p{
-    padding-bottom: 8px;
+    padding-bottom: 15px;
 }
