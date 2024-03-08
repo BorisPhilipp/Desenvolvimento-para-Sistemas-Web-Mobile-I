@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    background-color: #f1eded;
+}
+
 header{
     background-image: url(fundo.png);
     padding: 45px 240px 110px 240px;
@@ -92,6 +96,14 @@ li::marker{
     padding-right: 175px;
 }
 
-#hist{
+#visita{
+    background-color: #c2bda5;
+    float: right;
+    padding: 30px;
+    margin-right: -66px;
+    margin-top: -650px;
+}
 
+#visita p{
+    padding-bottom: 12px;
 }
