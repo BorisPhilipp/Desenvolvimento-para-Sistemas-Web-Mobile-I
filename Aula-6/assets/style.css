@@ -9,10 +9,6 @@ header{
 
 }
 
-/* #links img{
-
-}  */
-
 #links ul{
     color: #b17611;
     float: right;
@@ -31,7 +27,6 @@ header{
     position: relative;
 }
 
-
 #imagens-museu{
     top: -75px;
     position: absolute;
@@ -41,4 +36,26 @@ header{
  
 #imagens-museu img{
     height: 500px;
+}
+
+.geo-museu{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 450px 270px;
+}
+
+#geo-video{
+    float: left;
+    padding-right: 50px;
+}
+
+#geo-video p{
+    padding-bottom: 8px;
+}
+
+#geo-mapa{
+    clear: right;
+}
+
+#geo-mapa p{
+    padding-bottom: 8px;
 }
