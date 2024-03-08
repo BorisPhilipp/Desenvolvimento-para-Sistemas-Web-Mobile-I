@@ -4,9 +4,7 @@
 }
 
 header{
-    /* background-color: #262217; */
     background-image: url(fundo.png);
-    /* position: absolute; */
     padding: 45px 240px 110px 240px;
 
 }
@@ -19,7 +17,6 @@ header{
     color: #b17611;
     float: right;
     font-size: 17px;
- /*    padding: 50px; */
 } 
 
 #links li{
