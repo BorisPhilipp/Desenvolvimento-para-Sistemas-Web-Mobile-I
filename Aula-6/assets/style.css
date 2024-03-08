@@ -96,14 +96,30 @@ li::marker{
     padding-right: 175px;
 }
 
-#visita{
+.visita{
     background-color: #c2bda5;
     float: right;
-    padding: 30px;
     margin-right: -66px;
     margin-top: -650px;
 }
 
-#visita p{
+.visita h2{
+    font-size: 17px;
+    color: #b17611;
+    padding-bottom: 6px;
+}
+
+#padding-apenas{
+        padding: 25px 131px;
+}
+
+#forms{
     padding-bottom: 12px;
+}
+
+#dispo{
+    color: white;
+    background-color: #a09474;
+    text-align: center;
+    padding: 10px 15px;
 }
