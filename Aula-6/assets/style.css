@@ -110,7 +110,7 @@ li::marker{
 }
 
 #padding-apenas{
-        padding: 25px 131px;
+    padding: 25px 131px;
 }
 
 #forms{
@@ -123,3 +123,14 @@ li::marker{
     text-align: center;
     padding: 10px 15px;
 }
+
+.galeria-fotos{
+    float: right;
+    background-color: #f0e4dc;
+    margin: -486px 0;
+}
+
+#fundo-fotos{
+    position: relative;
+}
+
