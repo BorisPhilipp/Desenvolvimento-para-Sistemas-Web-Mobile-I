@@ -13,6 +13,11 @@ header{
 
 }
 
+#links a{
+    text-decoration: none;
+    color: #b17611;
+}
+
 #links ul{
     color: #b17611;
     float: right;
@@ -44,7 +49,7 @@ header{
 
 .geo-museu{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 450px 270px;
+    padding: 450px 270px 70px 270px;
 }
 
 #geo-video{
@@ -73,6 +78,11 @@ header{
 
 li::marker{
     color: black;
+}
+
+#expo a{
+    text-decoration: none;
+    color: #b17611;
 }
 
 #expo ul{
@@ -124,10 +134,21 @@ li::marker{
     padding: 10px 15px;
 }
 
+#dispo a{
+    text-decoration: none;
+    color: white;
+}
+
 .galeria-fotos{
+    color: #b17611;
     float: right;
     background-color: #f0e4dc;
     margin: -486px -66px;
+    padding: 120px 146px;
+}
+
+.galeria-fotos h2{
+    font-size: 18px;
 }
 
 #fotos{
@@ -140,3 +161,37 @@ li::marker{
     padding-bottom: 32px;
     padding-right: 20px;
 }
+
+#barra-footer img {
+    scale: 190%;
+    padding-top: 60px;
+    padding-left: 310px;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+footer a{
+    color: #b17611;
+    text-decoration: none;
+}
+
+#hr-footer a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #b17611;
+    padding: 10px;
+}
+
+#hr-footer ul{
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+
+#hr-footer li{
+    display: inline;
+}
+
